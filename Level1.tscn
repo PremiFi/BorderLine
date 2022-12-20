@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://GlockGround.tscn" type="PackedScene" id=2]
+
+[node name="Level1" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 63, 98 )
+
+[node name="GlockGround" parent="." instance=ExtResource( 2 )]
+position = Vector2( 472, 68 )
+
+[node name="GlockGround2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 470, 250 )
